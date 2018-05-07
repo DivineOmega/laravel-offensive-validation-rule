@@ -1,15 +1,7 @@
-# 🔒 Laravel Password Exposed Validation Rule
+# 🔒 Laravel Offensive Validation Rule
 
-This package provides a Laravel validation rule that checks if a password has been exposed in a data breach.
-
-<p align="center">
-    <img src="assets/images/laravel-password-exposed.png">
-</p>
-
-<p align="center">
-    <a href="https://styleci.io/repos/131214375"><img src="https://styleci.io/repos/131214375/shield?branch=master" alt="StyleCI"></a>
-    <img src="https://img.shields.io/packagist/dt/divineomega/laravel-password-exposed-validation-rule.svg"/>
-</p>
+This package provides a Laravel validation rule that checks if a string is offensive. It can be useful
+to check user supplied data that may be publicly displayed, such as usernames or comments.
 
 ## Installation
 
@@ -23,12 +15,12 @@ Please note that this package requires Laravel 5.1 or above.
 
 ## Usage
 
-The following code snippet shows an example of how to use the password exposed validation rule.
+The following code snippet shows an example of how to use the offensive validation rule.
 
 ```php
 use DivineOmega\LaravelOffensiveValidationRule\Offensive;
 
 $request->validate([
-    'password' => ['required', new Offensive],
+    'username' => ['required', new Offensive],
 ]);
 ```
