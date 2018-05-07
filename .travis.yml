@@ -1,0 +1,11 @@
+language: php
+dist: trusty
+php:
+  - 'hhvm'
+install:
+  - composer update
+script:
+ - ./vendor/bin/phpunit --coverage-clover ./tests/Logs/clover.xml
+ - ./vendor/bin/psalm
+after_script:
+ - php vendor/bin/php-coveralls -v

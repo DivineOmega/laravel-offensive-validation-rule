@@ -1,0 +1,31 @@
+{
+    "name": "divineomega/laravel-offensive-validation-rule",
+    "description": "Laravel validation rule that checks if a string is offensive",
+    "type": "library",
+    "require": {
+        "illuminate/contracts": "^5.1",
+        "divineomega/is_offensive": "^1.3"
+    },
+    "require-dev": {
+        "orchestra/testbench": "~3.0",
+        "phpunit/phpunit": "^7.0",
+        "satooshi/php-coveralls": "^2.0"
+    },
+    "license": "LGPL-3.0-only",
+    "authors": [
+        {
+            "name": "Jordan Hall",
+            "email": "jordan@hall05.co.uk"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "DivineOmega\\LaravelOffensiveValidationRule\\": "./src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DivineOmega\\LaravelOffensiveValidationRule\\Tests\\": "./tests/"
+        }
+    }
+}
