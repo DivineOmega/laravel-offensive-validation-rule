@@ -25,7 +25,7 @@ To install, just run the following Composer command.
 composer require divineomega/laravel-password-exposed-validation-rule
 ```
 
-Please note that this package requires Laravel 5.1 or above.
+Please note that this package requires Laravel 5.5 or above.
 
 ## Usage
 
