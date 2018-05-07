@@ -1,6 +1,6 @@
 {
     "name": "divineomega/laravel-offensive-validation-rule",
-    "description": "Laravel validation rule that checks if a string is offensive",
+    "description": "Laravel validation rule that checks if a string is offensive.",
     "type": "library",
     "require": {
         "illuminate/contracts": "^5.1",
