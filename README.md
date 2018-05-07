@@ -7,7 +7,7 @@ to check user supplied data that may be publicly displayed, such as usernames or
 
 <p align="center">
     <a href="https://travis-ci.org/DivineOmega/laravel-offensive-validation-rule">
-        <img src="https://travis-ci.org/DivineOmega/laravel-offensive-validation-rule.svg?branch=master)">
+        <img src="https://travis-ci.org/DivineOmega/laravel-offensive-validation-rule.svg?branch=master">
     </a>
     <a href='https://coveralls.io/github/DivineOmega/laravel-offensive-validation-rule?branch=master'>
         <img src='https://coveralls.io/repos/github/DivineOmega/laravel-offensive-validation-rule/badge.svg?branch=master' alt='Coverage Status' />
