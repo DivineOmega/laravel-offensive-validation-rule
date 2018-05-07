@@ -5,6 +5,12 @@ to check user supplied data that may be publicly displayed, such as usernames or
 
 <p align="center"><img src="assets/images/laravel-offensive-validation-rule-usage.png" alt="Laravel Offensive Validation Rule usage"></p>
 
+<p align="center">
+    <a href="https://travis-ci.org/DivineOmega/laravel-offensive-validation-rule">
+        <img src="https://travis-ci.org/DivineOmega/laravel-offensive-validation-rule.svg?branch=master)">
+    </a>
+</p>
+
 ## Installation
 
 To install, just run the following Composer command.
