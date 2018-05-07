@@ -3,6 +3,8 @@
 This package provides a Laravel validation rule that checks if a string is offensive. It can be useful
 to check user supplied data that may be publicly displayed, such as usernames or comments. 
 
+<p align="center"><img src="assets/images/laravel-offensive-validation-rule-usage.png" alt="Laravel Offensive Validation Rule usage"></p>
+
 ## Installation
 
 To install, just run the following Composer command.
