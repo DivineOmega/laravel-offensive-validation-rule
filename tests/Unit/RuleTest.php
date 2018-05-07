@@ -10,7 +10,7 @@ class RuleTest extends TestCase
 {
     private function getValidator($value)
     {
-        return Validator::make(['value' => $value], ['value' => new Offensive]);
+        return Validator::make(['value' => $value], ['value' => new Offensive()]);
     }
 
     public function testOffensiveValues()
@@ -25,7 +25,7 @@ class RuleTest extends TestCase
             'firstFaggot',
             'Sh1tface',
             'Twatter9000',
-            'Ultim8Cun7'
+            'Ultim8Cun7',
         ];
 
         foreach ($values as $value) {
@@ -44,7 +44,7 @@ class RuleTest extends TestCase
             'orange',
             'bananas',
             'middlesex',
-            'scunthorpe'
+            'scunthorpe',
         ];
 
         foreach ($values as $value) {
