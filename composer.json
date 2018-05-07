@@ -3,11 +3,12 @@
     "description": "Laravel validation rule that checks if a string is offensive.",
     "type": "library",
     "require": {
-        "illuminate/contracts": "^5.1",
+        "illuminate/contracts": "^5.5",
         "divineomega/is_offensive": "^1.3.2"
     },
     "require-dev": {
-        "orchestra/testbench": "~3.0",
+        "orchestra/testbench": "^3.5",
+        "phpunit/phpunit": "^6.0",
         "satooshi/php-coveralls": "^2.0"
     },
     "license": "LGPL-3.0-only",
