@@ -28,7 +28,7 @@ class Offensive implements Rule
      */
     public function passes($attribute, $value)
     {
-        return $this->offensiveChecker->isOffensive($value);
+        return !$this->offensiveChecker->isOffensive($value);
     }
 
     /**
