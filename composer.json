@@ -4,7 +4,7 @@
     "type": "library",
     "require": {
         "illuminate/contracts": "^5.5",
-        "divineomega/is_offensive": "^1.3.2"
+        "divineomega/is_offensive": "^1.4.0"
     },
     "require-dev": {
         "orchestra/testbench": "^3.5",

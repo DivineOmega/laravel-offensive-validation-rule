@@ -38,3 +38,20 @@ $request->validate([
     'username' => ['required', new Offensive],
 ]);
 ```
+
+### Custom word lists
+
+If the defaults are too strict (or not strict enough), you can optionally specify a custom list 
+of offensive words and custom whitelist. Below is an example of using a custom blacklist and whitelist.
+
+```php
+use DivineOmega\LaravelOffensiveValidationRule\Offensive;
+use DivineOmega\IsOffensive\OffensiveChecker;
+
+$blacklist = ['moist', 'stinky', 'poo'];
+$whitelist = ['poop'];
+
+$request->validate([
+    'username' => ['required', new Offensive(new OffensiveChecker($blacklist, $whitelist))],
+]);
+```
