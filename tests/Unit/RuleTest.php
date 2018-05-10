@@ -66,13 +66,12 @@ class RuleTest extends TestCase
         $passingValues = ['cheese', 'poop', 'poops'];
         $failingValues = ['moist', 'moistness', 'stinky', 'poo', 'poos'];
 
-        foreach($passingValues as $value) {
+        foreach ($passingValues as $value) {
             $this->assertTrue($this->getCustomBlacklistAndWhitelistValidator($value)->passes());
         }
 
-        foreach($failingValues as $value) {
+        foreach ($failingValues as $value) {
             $this->assertFalse($this->getCustomBlacklistAndWhitelistValidator($value)->passes());
         }
-
     }
 }
