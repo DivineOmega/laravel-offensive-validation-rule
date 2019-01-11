@@ -22,7 +22,7 @@ to check user supplied data that may be publicly displayed, such as usernames or
 To install, just run the following Composer command.
 
 ```
-composer require divineomega/laravel-password-exposed-validation-rule
+composer require divineomega/laravel-offensive-validation-rule
 ```
 
 Please note that this package requires Laravel 5.5 or above.
